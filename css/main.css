@@ -4,7 +4,7 @@ html {
   html body {
     min-height: 100%;
     /* para poner una imagen, ingresar su carpeta + nombre! */
-    background-image: url(fotos/fondo1.jpg);
+    background-image: url(../fotos/fondo1.jpg);
     /* la foto ocupa toda la pag */
     background-size: cover;
     /* la foto queda estática y el text de mueve */
@@ -45,7 +45,7 @@ html {
         color: black; }
   .color-nav {
     /* background: linear-gradient(rgba(5,7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(./fotos/fondo1.jpg) */
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(./fotos/fondo1.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../fotos/fondo1.jpg);
     background-attachment: fixed;
     background-size: cover; }
     .color-nav .links {
@@ -160,15 +160,15 @@ html {
   .carousel {
     display: none; }
   .botones-contacto1 {
-    background: linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(./fotos/fondo1.jpg);
+    background: linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(../fotos/fondo1.jpg);
     background-attachment: fixed;
     background-size: cover; }
   .botones-contacto2 {
-    background: linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(./fotos/fondo1.jpg);
+    background: linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(../fotos/fondo1.jpg);
     background-attachment: fixed;
     background-size: cover; }
   .botones-contacto3 {
-    background: linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(./fotos/fondo1.jpg);
+    background: linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(../fotos/fondo1.jpg);
     background-attachment: fixed;
     background-size: cover; } }
 
@@ -177,7 +177,8 @@ html {
   .header-index {
     width: 100%;
     display: grid;
-    grid-template-areas: "logo" "nav"; }
+    grid-template-areas: "logo"
+ "nav"; }
   .logo {
     width: 250px;
     height: 150px;
@@ -317,12 +318,12 @@ html {
   height: 100%; }
 
 .accordion-button {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(161, 128, 238, 0.6)), url(./fotos/fondo1.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(161, 128, 238, 0.6)), url(../fotos/fondo1.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
 .accordion-item {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(75, 124, 216, 0.6)), url(./fotos/fondo1.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(75, 124, 216, 0.6)), url(../fotos/fondo1.jpg);
   background-attachment: fixed;
   background-size: cover; }
 

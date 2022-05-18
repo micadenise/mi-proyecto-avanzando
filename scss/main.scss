@@ -230,26 +230,24 @@ html {
        }
     
     .botones-contacto1 {
-    background: linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(./fotos/fondo1.jpg);
+    background: linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(../fotos/fondo1.jpg);
        background-attachment: fixed;
        background-size: cover;
         }
 
      .botones-contacto2 {
-    background: linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(./fotos/fondo1.jpg);
+    background: linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(../fotos/fondo1.jpg);
     background-attachment: fixed;
     background-size: cover;
         }
 
     .botones-contacto3 {
-    background: linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(./fotos/fondo1.jpg);
+    background: linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(../fotos/fondo1.jpg);
     background-attachment: fixed;
     background-size: cover;
      }
 
  }
-
-
 
 /* MEDIA COMPUTADORA !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media screen and (min-width: 1024px) {
@@ -278,52 +276,51 @@ html {
         padding: 5px 0px;
     }
 
+
     
     .todas-imagenes {
         display: flex;
         align-items: center;
         justify-content: space-between;
         text-align: center;
-
-        .imagen-masc-pestañas {
-            /* largo de img */
-            height: 200px;
-            /* ancho de img */
-            width: 150px;
-            margin: 20px;
-            border: 3px solid rgb(220, 158, 245);
-    
-    
-        }
-        
-        .imagen-labiales {
-            height: 200px;
-            width: 200px;
-            margin: 20px;
-            border: 3px solid rgb(220, 158, 245);
-        }
-        
-        .imagen-iluminador {
-            height: 200px;
-            margin: 20px;
-            border: 3px solid rgb(220, 158, 245);
-        }
-        
-        .imagen-rubor {
-            height: 200px;
-            width: 200px;
-            margin: 20px;
-            border: 3px solid rgb(220, 158, 245);
-        }
-        
-        .imagen-sombras {
-            height: 200px;
-            margin: 20px;
-            border: 3px solid rgb(220, 158, 245);
-        }
     }
     
+    .imagen-masc-pestañas {
+        /* largo de img */
+        height: 200px;
+        /* ancho de img */
+        width: 150px;
+        margin: 20px;
+        border: 3px solid rgb(220, 158, 245);
+
+
+    }
     
+    .imagen-labiales {
+        height: 200px;
+        width: 200px;
+        margin: 20px;
+        border: 3px solid rgb(220, 158, 245);
+    }
+    
+    .imagen-iluminador {
+        height: 200px;
+        margin: 20px;
+        border: 3px solid rgb(220, 158, 245);
+    }
+    
+    .imagen-rubor {
+        height: 200px;
+        width: 200px;
+        margin: 20px;
+        border: 3px solid rgb(220, 158, 245);
+    }
+    
+    .imagen-sombras {
+        height: 200px;
+        margin: 20px;
+        border: 3px solid rgb(220, 158, 245);
+    }
 
  
 
@@ -459,13 +456,13 @@ html {
 
 
 .accordion-button {
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(161, 128, 238, 0.6)), url(./fotos/fondo1.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(161, 128, 238, 0.6)), url(../fotos/fondo1.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
 
 .accordion-item {
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(75, 124, 216, 0.6)), url(./fotos/fondo1.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(75, 124, 216, 0.6)), url(../fotos/fondo1.jpg);
     background-attachment: fixed;
         background-size: cover;
 }
