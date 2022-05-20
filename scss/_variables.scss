@@ -1,8 +1,15 @@
 $color-primary: rgb(232, 227, 236);
 $color-secondary: rgb(48, 22, 73);
 
-@mixin size ($alto, $ancho, $espaciado) {
+@mixin size ($alto, $ancho) {
     height: $alto;
     width: $ancho;
-    margin: $espaciado;
 }
+
+
+$redes: (
+    instagram: (linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(../fotos/fondo1.jpg)) ,
+    whatsapp: (linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(../fotos/fondo1.jpg)),
+    twitter: (linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(../fotos/fondo1.jpg)),
+);
+

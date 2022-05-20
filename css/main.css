@@ -102,8 +102,8 @@ body {
     border: 3px solid #dc9ef5; }
   .imagen-iluminador {
     height: 200px;
-    margin: 20px;
-    border: 3px solid #dc9ef5; }
+    border: 3px solid #dc9ef5;
+    margin: 20px; }
   .imagen-rubor {
     height: 200px;
     width: 200px;
@@ -179,7 +179,7 @@ body {
     width: auto;
     float: right;
     display: block; }
-  .todas-imagenes {
+  .todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras {
     width: 100%;
     margin: auto; }
   .producto {
@@ -212,7 +212,7 @@ body {
     align-items: center;
     margin: 20px;
     padding: 5px 0px; }
-  .todas-imagenes {
+  .todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -366,50 +366,38 @@ body {
 
 /* IMÁGENES */
 /* INDEX */
+.todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras {
+  margin: 15px; }
+
 .imagen-masc-pestañas {
   height: 200px;
   width: 150px;
-  margin: 20px;
   border: 3px solid #dc9ef5; }
 
 .imagen-labiales {
-  height: 200px;
-  width: 200px;
-  margin: 20px;
+  height: 180px;
+  width: 180px;
   border: 3px solid #dc9ef5; }
 
 .imagen-iluminador {
   height: 200px;
   width: 200px;
-  margin: 20px;
   border: 3px solid #dc9ef5; }
 
 .imagen-rubor {
   height: 200px;
   width: 200px;
-  margin: 20px;
   border: 3px solid #dc9ef5; }
 
 .imagen-sombras {
   height: 150px;
-  width: 150px;
-  margin: 20px;
+  width: 200px;
   border: 3px solid #dc9ef5; }
 
 .animacion:hover {
   transform: scale(1.1); }
 
 /* NOSOTROS */
-.imagen-empresa {
-  height: 150px;
-  width: auto;
-  align-items: center;
-  margin-left: 10px;
-  border-radius: 5px;
-  border-color: pink;
-  float: left;
-  display: none; }
-
 /* TABLA */
 .tabla {
   border: solid 3px #e2dbec;
@@ -443,21 +431,48 @@ body {
 .video {
   margin-top: 20px; }
 
-.carousel {
-  display: none; }
-
-.botones-contacto1 {
-  background: linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(../fotos/fondo1.jpg);
+.botones-contacto1 .red-instagram {
+  color: linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(../fotos/fondo1.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
-.botones-contacto2 {
-  background: linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(../fotos/fondo1.jpg);
+.botones-contacto1 .red-whatsapp {
+  color: linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(../fotos/fondo1.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
-.botones-contacto3 {
-  background: linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(../fotos/fondo1.jpg);
+.botones-contacto1 .red-twitter {
+  color: linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(../fotos/fondo1.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.botones-contacto2 .red-instagram {
+  color: linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(../fotos/fondo1.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.botones-contacto2 .red-whatsapp {
+  color: linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(../fotos/fondo1.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.botones-contacto2 .red-twitter {
+  color: linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(../fotos/fondo1.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.botones-contacto3 .red-instagram {
+  color: linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(../fotos/fondo1.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.botones-contacto3 .red-whatsapp {
+  color: linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(../fotos/fondo1.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.botones-contacto3 .red-twitter {
+  color: linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(../fotos/fondo1.jpg);
   background-attachment: fixed;
   background-size: cover; }
 

@@ -43,28 +43,40 @@
     /* IMÁGENES */
     
     /* INDEX */
+
+   
+    
+    .todas-imagenes {
+        margin: 15px;
+    }
+
     .imagen-masc-pestañas {
-        @include size (200px, 150px, 20px);
+        @extend .todas-imagenes;
+        @include size (200px, 150px);
         border: 3px solid rgb(220, 158, 245);
     }
     
     .imagen-labiales {
-        @include size (200px, 200px, 20px);
+        @extend .todas-imagenes;
+        @include size (180px, 180px);
         border: 3px solid rgb(220, 158, 245);
     }
     
     .imagen-iluminador {
-        @include size (200px, 200px, 20px);
+        @extend .todas-imagenes;
+        @include size (200px, 200px);
         border: 3px solid rgb(220, 158, 245);
     }
     
     .imagen-rubor {
-        @include size (200px, 200px, 20px);
+        @extend .todas-imagenes;
+        @include size (200px, 200px);
         border: 3px solid rgb(220, 158, 245);
     }
     
     .imagen-sombras {
-        @include size (150px, 150px, 20px);
+        @extend .todas-imagenes;
+        @include size (150px, 200px);
         border: 3px solid rgb(220, 158, 245);
     }
     .animacion:hover {
@@ -72,16 +84,7 @@
     }
 
     /* NOSOTROS */
-    .imagen-empresa {
-        height: 150px;
-        width: auto;
-        align-items: center;
-        margin-left: 10px;
-        border-radius: 5px;
-        border-color: pink;
-        float: left;
-        display: none;
-    }
+    
     
     /* TABLA */
     .tabla {
@@ -123,27 +126,35 @@
     .video {
         margin-top: 20px;
     }
-      
-    .carousel {
-        display: none;
-       }
     
     .botones-contacto1 {
-    background: linear-gradient(rgba(207, 55, 62, 0.6), rgba(255, 255, 255, 0.6)), url(../fotos/fondo1.jpg);
-       background-attachment: fixed;
-       background-size: cover;
+        @each $red, $color in $redes {
+            .red-#{$red} {
+                color: $color;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        }
         }
     
      .botones-contacto2 {
-    background: linear-gradient(rgba(46, 209, 73, 0.6), rgba(115, 255, 138, 0.6)), url(../fotos/fondo1.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+        @each $red, $color in $redes {
+            .red-#{$red} {
+                color: $color;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        }
         }
     
     .botones-contacto3 {
-    background: linear-gradient(rgba(157, 248, 255, 0.6), rgba(149, 243, 255, 0.6)), url(../fotos/fondo1.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+        @each $red, $color in $redes {
+            .red-#{$red} {
+                color: $color;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        }
      }
     
      .video-curso {
