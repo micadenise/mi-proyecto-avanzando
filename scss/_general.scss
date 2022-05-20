@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    /* para poner una imagen, ingresar su carpeta + nombre! */
+    background-image: url(../fotos/fondo1.jpg);
+    /* la foto ocupa toda la pag */
+    background-size: cover;
+    /* la foto queda estática y el text de mueve */
+    background-attachment: fixed;
+    padding: 5px 10px 20px 25px;
+ }

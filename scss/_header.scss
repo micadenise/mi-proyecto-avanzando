@@ -1,0 +1,61 @@
+/* HEADER, LOGO */
+.logo img {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    }
+
+.transicion {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-left: 50px;
+    opacity: 1;
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+
+    @keyframes fade-in {
+        0% {
+            transform: translateX(-800px);
+            opacity: 0;
+        }
+
+        50% {
+            transform: translateX(-50px);
+            opacity: .5;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+}
+    
+
+// NAV
+.color-nav {
+    /* background: linear-gradient(rgba(5,7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(./fotos/fondo1.jpg) */
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(/fotos/fondo1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    .links {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400; 
+    }
+    
+    .links:hover {
+        transform: scale(1.1);
+    }
+
+    a:hover{
+        color: black ;
+    }
+}
