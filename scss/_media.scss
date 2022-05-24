@@ -295,44 +295,46 @@
         align-items: center;
         justify-content: space-between;
         text-align: center;
-    }
-    
-    .imagen-masc-pestañas {
-        /* largo de img */
-        height: 200px;
-        /* ancho de img */
-        width: 150px;
-        margin: 20px;
-        border: 3px solid rgb(220, 158, 245);
 
-
+        .imagen-masc-pestañas {
+            /* largo de img */
+            height: 200px;
+            /* ancho de img */
+            width: 150px;
+            margin: 20px;
+            border: 3px solid rgb(220, 158, 245);
+    
+    
+        }
+        
+        .imagen-labiales {
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+            border: 3px solid rgb(220, 158, 245);
+        }
+        
+        .imagen-iluminador {
+            height: 200px;
+            margin: 20px;
+            border: 3px solid rgb(220, 158, 245);
+        }
+        
+        .imagen-rubor {
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+            border: 3px solid rgb(220, 158, 245);
+        }
+        
+        .imagen-sombras {
+            height: 200px;
+            margin: 20px;
+            border: 3px solid rgb(220, 158, 245);
+        }
     }
     
-    .imagen-labiales {
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        border: 3px solid rgb(220, 158, 245);
-    }
     
-    .imagen-iluminador {
-        height: 200px;
-        margin: 20px;
-        border: 3px solid rgb(220, 158, 245);
-    }
-    
-    .imagen-rubor {
-        height: 200px;
-        width: 200px;
-        margin: 20px;
-        border: 3px solid rgb(220, 158, 245);
-    }
-    
-    .imagen-sombras {
-        height: 200px;
-        margin: 20px;
-        border: 3px solid rgb(220, 158, 245);
-    }
 
  
 
