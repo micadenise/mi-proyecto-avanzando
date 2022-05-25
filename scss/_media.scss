@@ -161,21 +161,11 @@
     }
     
     /* TABLA */
-    .tabla {
-        border: solid 3px rgb(226, 219, 236);
-        /* border-style: solid; */
-        /* grosor: */
-        /* border-width: 3px;  */
-        /* color de los bordes */
-        /* border-color: rgb(226, 219, 236); */
-        /* forma del borde */
-        border-radius: 4px;
-        padding: 10px;
-        height: 80px;
-        width: 300px;
-        
-        
+    .table {
+        border: 2px white;
     }
+    
+   
     
     /* FOOTER */
     .color-footer {
@@ -236,30 +226,32 @@
 @media screen and (min-width: 768px) {
 
     .imagen-empresa {
-            height: 250px;
-            width: auto;
-            float: right;
-            display: block;
-        }
-    
-    .todas-imagenes {
-        width: 100%;
-        margin: auto;
-    }
-    
-    .producto {
-        width: 50%;
-        float: left;
-    }
-    
-    .carousel {
-        height: 540px; 
-        width: 260px; 
-        float: left;
-        padding: 10px;
-        border-radius: 50px;
+        height: 250px;
+        width: auto;
+        float: right;
         display: block;
-       }
+    }
+
+.todas-imagenes {
+    width: 100%;
+    margin: auto;
+}
+
+.producto {
+    background-size: 50% ;
+    width: 50%;
+    float: left;
+}
+
+.carousel {
+    height: 540px; 
+    width: 260px; 
+    float: left;
+    padding: 10px;
+    border-radius: 50px;
+    display: block;
+   }
+
     
     }
 
@@ -338,19 +330,7 @@
 
  
 
-    .tabla {
-        border: solid 3px rgb(226, 219, 236);
-        /* border-style: solid; */
-        /* grosor: */
-        /* border-width: 3px;  */
-        /* color de los bordes */
-        /* border-color: rgb(226, 219, 236); */
-        /* forma del borde */
-        border-radius: 4px;
-        padding: 10px;
-        height: 80px;
-        width: 600px;
-    }
+    
 
 .contenedor-main-nosotros {
     box-sizing: border-box;

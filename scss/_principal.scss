@@ -47,7 +47,7 @@
    
     
     .todas-imagenes {
-        margin: 20px;
+        margin: 15px;
     }
 
     .imagen-masc-pestañas {
@@ -87,21 +87,20 @@
     
     
     /* TABLA */
-    .tabla {
-        border: solid 3px rgb(226, 219, 236);
-        /* border-style: solid; */
-        /* grosor: */
-        /* border-width: 3px;  */
-        /* color de los bordes */
-        /* border-color: rgb(226, 219, 236); */
-        /* forma del borde */
-        border-radius: 4px;
-        padding: 10px;
-        height: 80px;
-        width: 300px;
-        
-        
+    .table {
+        border: 2px rgb(241, 235, 235);
     }
+
+    .table-dias {
+        color: rgb(223, 164, 217);
+    }
+
+    .table-hora {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 3px;
+    }
+    
 
     /* PAG CONTACTOS */
     /* LOGOS */

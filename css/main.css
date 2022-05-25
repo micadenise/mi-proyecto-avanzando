@@ -10,7 +10,7 @@ body {
   background-size: cover;
   /* la foto queda estática y el text de mueve */
   background-attachment: fixed;
-  padding: 5px 10px 20px 25px; }
+  padding: 15px 15px 15px 15px; }
 
 /* MEDIA CELULAR */
 @media screen and (min-width: 350px) {
@@ -126,18 +126,8 @@ body {
     float: left;
     display: none; }
   /* TABLA */
-  .tabla {
-    border: solid 3px #e2dbec;
-    /* border-style: solid; */
-    /* grosor: */
-    /* border-width: 3px;  */
-    /* color de los bordes */
-    /* border-color: rgb(226, 219, 236); */
-    /* forma del borde */
-    border-radius: 4px;
-    padding: 10px;
-    height: 80px;
-    width: 300px; }
+  .table {
+    border: 2px white; }
   /* FOOTER */
   .color-footer {
     color: bisque !important; }
@@ -183,6 +173,7 @@ body {
     width: 100%;
     margin: auto; }
   .producto {
+    background-size: 50%;
     width: 50%;
     float: left; }
   .carousel {
@@ -242,18 +233,6 @@ body {
       height: 200px;
       margin: 20px;
       border: 3px solid #dc9ef5; }
-  .tabla {
-    border: solid 3px #e2dbec;
-    /* border-style: solid; */
-    /* grosor: */
-    /* border-width: 3px;  */
-    /* color de los bordes */
-    /* border-color: rgb(226, 219, 236); */
-    /* forma del borde */
-    border-radius: 4px;
-    padding: 10px;
-    height: 80px;
-    width: 600px; }
   .contenedor-main-nosotros {
     box-sizing: border-box;
     width: 100%;
@@ -366,7 +345,7 @@ body {
 /* IMÁGENES */
 /* INDEX */
 .todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras {
-  margin: 20px; }
+  margin: 15px; }
 
 .imagen-masc-pestañas {
   height: 200px;
@@ -398,18 +377,16 @@ body {
 
 /* NOSOTROS */
 /* TABLA */
-.tabla {
-  border: solid 3px #e2dbec;
-  /* border-style: solid; */
-  /* grosor: */
-  /* border-width: 3px;  */
-  /* color de los bordes */
-  /* border-color: rgb(226, 219, 236); */
-  /* forma del borde */
-  border-radius: 4px;
-  padding: 10px;
-  height: 80px;
-  width: 300px; }
+.table {
+  border: 2px #f1ebeb; }
+
+.table-dias {
+  color: #dfa4d9; }
+
+.table-hora {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 3px; }
 
 /* PAG CONTACTOS */
 /* LOGOS */
