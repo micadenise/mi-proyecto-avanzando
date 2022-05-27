@@ -213,25 +213,25 @@ body {
       height: 200px;
       /* ancho de img */
       width: 150px;
-      margin: 20px;
+      margin: 10px;
       border: 3px solid #dc9ef5; }
     .todas-imagenes .imagen-labiales, .imagen-masc-pestañas .imagen-labiales, .imagen-labiales .imagen-labiales, .imagen-iluminador .imagen-labiales, .imagen-rubor .imagen-labiales, .imagen-sombras .imagen-labiales {
       height: 200px;
       width: 200px;
-      margin: 20px;
+      margin: 10px;
       border: 3px solid #dc9ef5; }
     .todas-imagenes .imagen-iluminador, .imagen-masc-pestañas .imagen-iluminador, .imagen-labiales .imagen-iluminador, .imagen-iluminador .imagen-iluminador, .imagen-rubor .imagen-iluminador, .imagen-sombras .imagen-iluminador {
       height: 200px;
-      margin: 20px;
+      margin: 10px;
       border: 3px solid #dc9ef5; }
     .todas-imagenes .imagen-rubor, .imagen-masc-pestañas .imagen-rubor, .imagen-labiales .imagen-rubor, .imagen-iluminador .imagen-rubor, .imagen-rubor .imagen-rubor, .imagen-sombras .imagen-rubor {
       height: 200px;
       width: 200px;
-      margin: 20px;
+      margin: 10px;
       border: 3px solid #dc9ef5; }
     .todas-imagenes .imagen-sombras, .imagen-masc-pestañas .imagen-sombras, .imagen-labiales .imagen-sombras, .imagen-iluminador .imagen-sombras, .imagen-rubor .imagen-sombras, .imagen-sombras .imagen-sombras {
       height: 200px;
-      margin: 20px;
+      margin: 10px;
       border: 3px solid #dc9ef5; }
   .contenedor-main-nosotros {
     box-sizing: border-box;
@@ -353,8 +353,8 @@ body {
   border: 3px solid #dc9ef5; }
 
 .imagen-labiales {
-  height: 180px;
-  width: 180px;
+  height: 150px;
+  width: 150px;
   border: 3px solid #dc9ef5; }
 
 .imagen-iluminador {
@@ -374,6 +374,23 @@ body {
 
 .animacion:hover {
   transform: scale(1.1); }
+
+.contenedor-productos {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-gap: 1.2rem; }
+
+.producto {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.producto p {
+  text-align: center; }
 
 /* NOSOTROS */
 /* TABLA */
