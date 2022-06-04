@@ -169,9 +169,12 @@ body {
     width: auto;
     float: right;
     display: block; }
-  .todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras {
+  .todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras, .imagen-delineador {
     width: 100%;
-    margin: auto; }
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    justify-items: center; }
   .producto {
     background-size: 50%;
     width: 50%;
@@ -203,33 +206,34 @@ body {
     align-items: center;
     margin: 20px;
     padding: 5px 0px; }
-  .todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras {
-    display: flex;
+  .todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras, .imagen-delineador {
+    display: grid;
+    grid-template-rows: auto;
+    align-content: center;
     align-items: center;
-    justify-content: space-between;
     text-align: center; }
-    .todas-imagenes .imagen-masc-pestañas, .imagen-masc-pestañas .imagen-masc-pestañas, .imagen-labiales .imagen-masc-pestañas, .imagen-iluminador .imagen-masc-pestañas, .imagen-rubor .imagen-masc-pestañas, .imagen-sombras .imagen-masc-pestañas {
+    .todas-imagenes .imagen-masc-pestañas, .imagen-masc-pestañas .imagen-masc-pestañas, .imagen-labiales .imagen-masc-pestañas, .imagen-iluminador .imagen-masc-pestañas, .imagen-rubor .imagen-masc-pestañas, .imagen-sombras .imagen-masc-pestañas, .imagen-delineador .imagen-masc-pestañas {
       /* largo de img */
       height: 200px;
       /* ancho de img */
       width: 150px;
       margin: 10px;
       border: 3px solid #dc9ef5; }
-    .todas-imagenes .imagen-labiales, .imagen-masc-pestañas .imagen-labiales, .imagen-labiales .imagen-labiales, .imagen-iluminador .imagen-labiales, .imagen-rubor .imagen-labiales, .imagen-sombras .imagen-labiales {
+    .todas-imagenes .imagen-labiales, .imagen-masc-pestañas .imagen-labiales, .imagen-labiales .imagen-labiales, .imagen-iluminador .imagen-labiales, .imagen-rubor .imagen-labiales, .imagen-sombras .imagen-labiales, .imagen-delineador .imagen-labiales {
       height: 200px;
       width: 200px;
       margin: 10px;
       border: 3px solid #dc9ef5; }
-    .todas-imagenes .imagen-iluminador, .imagen-masc-pestañas .imagen-iluminador, .imagen-labiales .imagen-iluminador, .imagen-iluminador .imagen-iluminador, .imagen-rubor .imagen-iluminador, .imagen-sombras .imagen-iluminador {
+    .todas-imagenes .imagen-iluminador, .imagen-masc-pestañas .imagen-iluminador, .imagen-labiales .imagen-iluminador, .imagen-iluminador .imagen-iluminador, .imagen-rubor .imagen-iluminador, .imagen-sombras .imagen-iluminador, .imagen-delineador .imagen-iluminador {
       height: 200px;
       margin: 10px;
       border: 3px solid #dc9ef5; }
-    .todas-imagenes .imagen-rubor, .imagen-masc-pestañas .imagen-rubor, .imagen-labiales .imagen-rubor, .imagen-iluminador .imagen-rubor, .imagen-rubor .imagen-rubor, .imagen-sombras .imagen-rubor {
+    .todas-imagenes .imagen-rubor, .imagen-masc-pestañas .imagen-rubor, .imagen-labiales .imagen-rubor, .imagen-iluminador .imagen-rubor, .imagen-rubor .imagen-rubor, .imagen-sombras .imagen-rubor, .imagen-delineador .imagen-rubor {
       height: 200px;
       width: 200px;
       margin: 10px;
       border: 3px solid #dc9ef5; }
-    .todas-imagenes .imagen-sombras, .imagen-masc-pestañas .imagen-sombras, .imagen-labiales .imagen-sombras, .imagen-iluminador .imagen-sombras, .imagen-rubor .imagen-sombras, .imagen-sombras .imagen-sombras {
+    .todas-imagenes .imagen-sombras, .imagen-masc-pestañas .imagen-sombras, .imagen-labiales .imagen-sombras, .imagen-iluminador .imagen-sombras, .imagen-rubor .imagen-sombras, .imagen-sombras .imagen-sombras, .imagen-delineador .imagen-sombras {
       height: 200px;
       margin: 10px;
       border: 3px solid #dc9ef5; }
@@ -344,7 +348,7 @@ body {
 
 /* IMÁGENES */
 /* INDEX */
-.todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras {
+.todas-imagenes, .imagen-masc-pestañas, .imagen-labiales, .imagen-iluminador, .imagen-rubor, .imagen-sombras, .imagen-delineador {
   margin: 15px; }
 
 .imagen-masc-pestañas {
@@ -370,6 +374,11 @@ body {
 .imagen-sombras {
   height: 150px;
   width: 200px;
+  border: 3px solid #dc9ef5; }
+
+.imagen-delineador {
+  height: 200px;
+  width: 100px;
   border: 3px solid #dc9ef5; }
 
 .animacion:hover {

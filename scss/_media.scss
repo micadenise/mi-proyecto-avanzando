@@ -235,6 +235,9 @@
 .todas-imagenes {
     width: 100%;
     margin: auto;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    justify-items: center;
 }
 
 .producto {
@@ -283,9 +286,10 @@
     }
     
     .todas-imagenes {
-        display: flex;
+        display: grid;
+        grid-template-rows: auto;
+        align-content: center;
         align-items: center;
-        justify-content: space-between;
         text-align: center;
 
         .imagen-masc-pestañas {

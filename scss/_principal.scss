@@ -48,6 +48,7 @@
     
     .todas-imagenes {
         margin: 15px;
+
     }
 
     .imagen-masc-pestañas {
@@ -79,6 +80,14 @@
         @include size (150px, 200px);
         border: 3px solid rgb(220, 158, 245);
     }
+
+    .imagen-delineador {
+        @extend .todas-imagenes;
+        @include size (200px, 100px);
+        border: 3px solid rgb(220, 158, 245);
+
+    }
+
     .animacion:hover {
         transform: scale(1.1);
     }
